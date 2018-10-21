@@ -41,6 +41,7 @@ And then execute:
 ```bash
 $ bundle
 $ bundle exec rails action_mailer_pixel:install:migrations
+$ bundle exec rails db:migrate
 $ bundle exec rails action_mailer_pixel:install
 ```
 
