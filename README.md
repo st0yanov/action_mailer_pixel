@@ -44,6 +44,11 @@ $ bundle exec rails action_mailer_pixel:install:migrations
 $ bundle exec rails action_mailer_pixel:install
 ```
 
+Mount the engine on a path of choice in **config/routes.rb**:
+```ruby
+mount ActionMailerPixel::Engine => '/action_mailer_pixel'
+```
+
 ## Contributing
 Contributions are welcome.
 
